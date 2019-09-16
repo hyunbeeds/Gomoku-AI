@@ -34,12 +34,12 @@ And before doing search, if AI can win with one step, that state is stored in de
 In min-max algorithm, evaluation function is the most important part of program.
 I evaluated board status with counting each numbers of open or closed count of stones and give each of them different scores. Below are specific scores that I gave. I think I can develop this evaluation function by changing specific scores of each status.
 
-closed two - 1
-open two - 2
-closed three stones - 3
-open three - 7
-close four - 9 
-open three three - (should be banned) -100000
-open four - 2000
-three four - 2000
-five - 500000
+1. closed two - 1
+2. open two - 2
+3. closed three stones - 3
+4. open three - 7
+5. close four - 9 
+6. open three three - (should be banned) -100000
+7. open four - 2000
+8. three four - 2000
+9. five - 500000
